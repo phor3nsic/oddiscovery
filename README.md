@@ -17,7 +17,7 @@ O365DomScan is a Python script designed to identify and list domains related to 
 1. pipx:
 
    ```sh
-   pipx install https://github.com/phor3nsic/O365DomScan.git
+   pipx install git+https://github.com/phor3nsic/O365DomScan.git
    ```
 
 ## Usage
