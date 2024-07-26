@@ -20,7 +20,7 @@ def get_domains(domain):
         for domain in domains:
             domain = domain.replace("</Domain>","")
             if "onmicrosoft.com" not in domain:
-                    root_domain = tldextract.extract(domain).registered_domain
+                    root_domain = tldextract.extract(domain).registered_domain.lower()
                     if root_domain not in root_domains:
                          if root_domain != "":
                             root_domains.append(root_domain)
