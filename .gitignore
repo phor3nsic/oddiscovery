@@ -1,0 +1,6 @@
+venv/*
+*venv*
+*build*
+build/*
+o365domscan.egg-info/*
+*o365domscan.egg-info*

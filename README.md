@@ -10,21 +10,14 @@ O365DomScan is a Python script designed to identify and list domains related to 
 ## Requirements
 
 - Python 3.x
-- Required Python packages (specified in `requirements.txt`)
+- pipx
 
 ## Installation
 
-1. Clone the repository:
+1. pipx:
 
    ```sh
-   git clone https://github.com/phor3nsic/O365DomScan.git
-   cd O365DomScan
-   ```
-
-2. Install the required packages:
-
-   ```sh
-   pip install -r requirements.txt
+   pipx install https://github.com/phor3nsic/O365DomScan.git
    ```
 
 ## Usage
@@ -34,7 +27,7 @@ O365DomScan is a Python script designed to identify and list domains related to 
 2. Run the script:
 
    ```sh
-   python O365DomScan.py example.com
+   O365domscan example.com
    ```
 
 3. The script will output a list of related domains.
@@ -45,7 +38,7 @@ O365DomScan is a Python script designed to identify and list domains related to 
 Here is an example of how to use O365DomScan:
 
 ```sh
-python O365DomScan.py example.com
+O365domscan example.com
 ```
 
 Output:

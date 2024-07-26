@@ -27,10 +27,11 @@ def get_domains(domain):
                             print(root_domain)
     else:
         print(domain)
-
-if len(sys.argv) < 2:
-    print("Try python3 "+sys.argv[0] + "domain.tdl")
-    print("To get list domains related to a given domain within the Office 365 environment.")
-    sys.exit()
-else:
-    get_domains(sys.argv[1])
+        
+def run():
+    if len(sys.argv) < 2:
+        print("Try python3 "+sys.argv[0] + "example.com")
+        print("To get list domains related to a given domain within the Office 365 environment.")
+        sys.exit()
+    else:
+        get_domains(sys.argv[1])
