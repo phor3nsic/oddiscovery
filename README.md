@@ -40,17 +40,7 @@
 
 Here is an example of how to use O365DomScan:
 
-```sh
-O365domscan example.com
-```
-
-Output:
-```
-Related domains for example.com:
-- backofficeexample.com
-- anotherexample.com
-- ...
-```
+![alt text](image.png)
 
 ## Contributing
 
