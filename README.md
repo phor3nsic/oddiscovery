@@ -51,8 +51,8 @@ python O365DomScan.py example.com
 Output:
 ```
 Related domains for example.com:
-- related1.example.com
-- related2.example.com
+- backofficeexample.com
+- anotherexample.com
 - ...
 ```
 
