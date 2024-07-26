@@ -1,7 +1,9 @@
 import requests
 import sys
+import tldextract
 
 def get_domains(domain):
+    root_domains = []
     url = "https://autodiscover-s.outlook.com:443/autodiscover/autodiscover.svc"
     headers = {
         "User-Agent": "AutodiscoverClient", 
@@ -18,7 +20,11 @@ def get_domains(domain):
         for domain in domains:
             domain = domain.replace("</Domain>","")
             if "onmicrosoft.com" not in domain:
-                print(domain)
+                    root_domain = tldextract.extract(domain).registered_domain
+                    if root_domain not in root_domains:
+                         if root_domain != "":
+                            root_domains.append(root_domain)
+                            print(root_domain)
     else:
         print(domain)
 
