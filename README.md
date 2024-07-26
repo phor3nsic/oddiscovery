@@ -1,6 +1,9 @@
-# O365DomScan
+<h1 align="center">
+  <image src="https://cdn2.iconfinder.com/data/icons/bloomies-files-and-documents/25/Bloomies_2_Onedrive_drive_cloud_microsoft_office_windows-1024.png" height=180px>
+  <br>
+</h1>
 
-O365DomScan is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.
+<h4 align="center">O365DomScan is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.</h4>
 
 ## Features
 
