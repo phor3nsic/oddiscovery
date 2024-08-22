@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">O365DomScan is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.</h4>
+<h4 align="center">`oddiscovery` is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.</h4>
 
 ## Features
 
@@ -20,7 +20,7 @@
 1. pipx:
 
    ```sh
-   pipx install git+https://github.com/phor3nsic/O365DomScan.git
+   pipx install git+https://github.com/phor3nsic/oddiscovery.git
    ```
 
 ## Usage
@@ -30,7 +30,7 @@
 2. Run the script:
 
    ```sh
-   O365domscan example.com
+   oddiscovery example.com
    ```
 
 3. The script will output a list of related domains.
@@ -38,7 +38,7 @@
 
 ## Example
 
-Here is an example of how to use O365DomScan:
+Here is an example of how to use `oddiscovery`:
 
 ![alt text](image.png)
 
