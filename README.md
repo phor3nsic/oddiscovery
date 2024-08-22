@@ -44,7 +44,7 @@ Here is an example of how to use `oddiscovery`:
 
 <br>
   <!--Tweet button-->
-  <a href="https://twitter.com/intent/tweet?text=subdominex%20-%20Domain%20Asset%20Identification%20Tool%20https%3A%2F%2Fgithub.com%2Fphor3nsic%2Fsubdominex%20%23bash%20%23github%20%23linux%20%23infosec%20%23bugbounty" target="_blank">Share on Twitter!
+  <a href="https://twitter.com/intent/tweet?text=oddiscover%20-%20Domain%20Discovery%20by%20office%20365%20https%3A%2F%2Fgithub.com%2Fphor3nsic%2Foddiscovery%20%23python%20%23github%20%23linux%20%23infosec%20%23bugbounty" target="_blank">Share on Twitter!
   </a>
 </p>
 
