@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">`oddiscovery` is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.</h4>
+<h4 align="center"><i>oddiscovery</i> is a Python script designed to identify and list domains related to a given domain within the Office 365 environment.</h4>
 
 ## Features
 
@@ -42,9 +42,21 @@ Here is an example of how to use `oddiscovery`:
 
 ![alt text](image.png)
 
+<br>
+  <!--Tweet button-->
+  <a href="https://twitter.com/intent/tweet?text=subdominex%20-%20Domain%20Asset%20Identification%20Tool%20https%3A%2F%2Fgithub.com%2Fphor3nsic%2Fsubdominex%20%23bash%20%23github%20%23linux%20%23infosec%20%23bugbounty" target="_blank">Share on Twitter!
+  </a>
+</p>
+
 ## Contributing
 
 Feel free to fork this project, create a branch, and submit a pull request with your improvements.
+
+## Buy Me A Coffee
+
+If you have saved time or money using one of my tools and feel grateful for it, feel free to contribute so that I can dedicate more time to developing solutions.
+
+<a href="https://www.buymeacoffee.com/phor3nsic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## License
 
