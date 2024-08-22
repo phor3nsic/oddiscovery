@@ -4,3 +4,5 @@ venv/*
 build/*
 o365domscan.egg-info/*
 *o365domscan.egg-info*
+oddiscovery.egg-info/*
+*oddiscovery.egg-info*
