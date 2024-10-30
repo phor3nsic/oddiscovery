@@ -48,6 +48,15 @@ Here is an example of how to use `oddiscovery`:
   </a>
 </p>
 
+### Source
+
+```python
+from oddiscovery import main as oddiscovery
+
+domains = oddiscovery.get_domains('example.com')
+print('\n'.join(domains))
+```
+
 ## Contributing
 
 Feel free to fork this project, create a branch, and submit a pull request with your improvements.

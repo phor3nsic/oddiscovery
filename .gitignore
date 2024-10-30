@@ -6,3 +6,5 @@ o365domscan.egg-info/*
 *o365domscan.egg-info*
 oddiscovery.egg-info/*
 *oddiscovery.egg-info*
+*__pycache__/*
+*__pycache__*
