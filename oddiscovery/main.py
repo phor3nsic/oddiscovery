@@ -24,9 +24,10 @@ def get_domains(domain):
                     if root_domain not in root_domains:
                          if root_domain != "":
                             root_domains.append(root_domain)
-                            print(root_domain)
     else:
-        print(domain)
+        root_domains.append(domain)
+    
+    return root_domains
         
 def run():
     if len(sys.argv) < 2:
@@ -34,4 +35,5 @@ def run():
         print("To get list domains related to a given domain within the Office 365 environment.")
         sys.exit()
     else:
-        get_domains(sys.argv[1])
+        domains  = get_domains(sys.argv[1])
+        print('\n'.join(domains))
